@@ -32,6 +32,7 @@ RUN apt-get update -q && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no
         libxml2-dev \
         libxslt-dev \
         libyaml-dev \
+        bzip2 \
         zlib1g-dev && \
 
     rm -rf /var/lib/apt/lists/* && \
