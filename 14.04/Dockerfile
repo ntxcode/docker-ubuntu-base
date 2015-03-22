@@ -33,6 +33,7 @@ RUN apt-get update -q && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no
         libxslt-dev \
         libyaml-dev \
         bzip2 \
+        imagemagick \
         zlib1g-dev && \
 
     rm -rf /var/lib/apt/lists/* && \
